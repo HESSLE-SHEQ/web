@@ -137,3 +137,6 @@ body {
   background: var(--light);
   color: var(--grey);
 }
+.large-logo {
+  height: 110px; /* Increase or decrease as needed */
+}
