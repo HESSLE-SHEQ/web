@@ -19,18 +19,20 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.2rem 8%;
+  padding: 1.4rem 8%;
   border-bottom: 2px solid var(--blue);
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 
+/* ⭐ Bigger logo */
 .logo {
-  height: 70px;
+  height: 120px;   /* ~50% bigger */
+  width: auto;
 }
 
 .tagline {
@@ -53,7 +55,6 @@ body {
 .hero {
   padding: 4rem 8%;
   background: var(--light);
-  text-align: left;
 }
 
 .hero h2 {
@@ -96,7 +97,7 @@ body {
 /* Cards */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
 }
 
@@ -136,7 +137,4 @@ body {
   padding: 1.5rem;
   background: var(--light);
   color: var(--grey);
-}
-.large-logo {
-  height: 250px; /* Increase or decrease as needed */
 }
